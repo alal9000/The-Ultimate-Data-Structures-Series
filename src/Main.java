@@ -1,11 +1,16 @@
 public class Main {
 
-    public void log(int[] numbers, String[] names) {
-        for (int number : numbers)
-            System.out.println(number);
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
 
-        for (String name : names)
-            System.out.println(name);
+        log(numbers);
+    }
+
+    public static void log(int[] numbers) {
+        for (int first : numbers)
+            for (int second : numbers)
+                for (int third : numbers)
+                    System.out.println(first + ", " + second + ", " + third);
     }
 
 }
