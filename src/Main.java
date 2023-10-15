@@ -1,10 +1,18 @@
-public class Main {
-    public void greet(String[] names) {
-        // O(n) space
-        String[] copy = new String[names.length];
+import java.util.Arrays;
 
-        for (int i = 0; i < names.length; i++)
-            System.out.println("Hi " + names[i]);
+public class Main {
+    public static void main(String[] args) {
+//        int[] numbers = new int[3];
+//        numbers[0] = 10;
+//        numbers[1] = 20;
+//        numbers[2] = 30;
+//        System.out.println(Arrays.toString(numbers));
+
+
+        int[] numbers = { 10, 20, 30 };
+        System.out.println(numbers.length);
+        System.out.println(Arrays.toString(numbers));
+
     }
 
 }
