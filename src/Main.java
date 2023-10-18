@@ -1,18 +1,13 @@
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-//        int[] numbers = new int[3];
-//        numbers[0] = 10;
-//        numbers[1] = 20;
-//        numbers[2] = 30;
-//        System.out.println(Arrays.toString(numbers));
-
-
-        int[] numbers = { 10, 20, 30 };
-        System.out.println(numbers.length);
-        System.out.println(Arrays.toString(numbers));
-
+        ArrayMe numbers = new ArrayMe(3);
+        numbers.insert(10);
+        numbers.insert(20);
+        numbers.insert(30);
+        numbers.insert(40);
+        numbers.removeAt(3);
+        System.out.println(numbers.indexOf(100));
     }
 
 }
