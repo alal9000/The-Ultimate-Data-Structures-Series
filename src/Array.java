@@ -27,6 +27,14 @@ public class Array {
         count--;
     }
 
+    public int indexOf(int item) {
+        // Loop over all the items in this array, if we find the item, return the index
+        // Otherwise return -1
+        for (int i =0; i < count; i++)
+            if (item == items[i]) return i;
+        return -1;
+    }
+
 
     public void print() {
         for (int i = 0; i < count; i++)

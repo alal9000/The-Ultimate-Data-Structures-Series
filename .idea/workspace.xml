@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution- insert()">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution- removeAt()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697600473851</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="solution- removeAt()">
+      <created>1697602804952</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697602804952</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,7 +124,8 @@
     <MESSAGE value="Exercise- Array Class" />
     <MESSAGE value="solution- creating the class" />
     <MESSAGE value="solution- insert()" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution- insert()" />
+    <MESSAGE value="solution- removeAt()" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution- removeAt()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
