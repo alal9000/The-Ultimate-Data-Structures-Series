@@ -1,14 +1,14 @@
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Array numbers = new Array(3);
-        numbers.insert(10);
-        numbers.insert(20);
-        numbers.insert(30);
-        numbers.insert(40);
-        System.out.println(numbers.indexOf(100));
-        numbers.print();
-
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.remove(0);
+        list.toArray();
+        System.out.println(list.size());
     }
 
 }
