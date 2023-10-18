@@ -29,12 +29,10 @@ public class ArrayMe {
 
 
     public void removeAt(int index) {
-        if (index < 0 || index >= count) {
+        if (index < 0 || index >= count)
             throw new IllegalArgumentException("Invalid index");
-        }
-        for (int i = index; i < count - 1; i++) {
+        for (int i = index; i < count - 1; i++)
             array[i] = array[i + 1];
-        }
         count--;
     }
 
