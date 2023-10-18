@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="Exercise- Array Class">
-      <change afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution- creating the class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697596808874</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="solution- creating the class">
+      <created>1697599145230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697599145230</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -100,7 +109,8 @@
     <MESSAGE value="space complexity" />
     <MESSAGE value="working with arrays in java" />
     <MESSAGE value="Exercise- Array Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise- Array Class" />
+    <MESSAGE value="solution- creating the class" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution- creating the class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
