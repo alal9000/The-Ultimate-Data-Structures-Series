@@ -11,8 +11,10 @@ public class LinkedList {
 
     }
 
+
     private Node first;
     private Node last;
+
 
     // addLast
     public void addLast(int item) {
@@ -75,17 +77,35 @@ public class LinkedList {
         first = second;
     }
 
+
     // removeLast
-    public void deleteLast() {
-//        last.setValue(0);
-//        last.setNext(new Node());
+    public void removeLast() {
+        if (isEmpty())
+            throw new NoSuchElementException();
+
+        if (first == last) {
+            first = last = null;
+            return;
+        }
+
+        var previous = getPrevious(last);
+        last = previous;
+        last.next = null;
+
     }
+
+
+    private Node getPrevious(Node node) {
+        var current = first;
+        while(current != null) {
+            if (current.next == node) return current;
+        }
+        return null;
+    }
+
+
     private boolean isEmpty() {
         return first == null;
     }
-
-
-
-
 
 }
