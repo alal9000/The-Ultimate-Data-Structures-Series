@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="dynamic arrays">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="working with linked lists">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -27,7 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2WZCNKhRF2rSgYUZXAILG0MAI3d" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -126,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697605396521</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="working with linked lists">
+      <created>1697674254926</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697674254926</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,7 +152,19 @@
     <MESSAGE value="solution- removeAt()" />
     <MESSAGE value="solution- indexOf()" />
     <MESSAGE value="dynamic arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="dynamic arrays" />
+    <MESSAGE value="working with linked lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with linked lists" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
