@@ -143,18 +143,22 @@ public class LinkedList {
     }
 
     public int getKthFromTheEnd(int k) {
-        if (k > 0) {
-        var current = first.next;
-        second = current.next;
+        if (isEmpty())
+            throw new IllegalStateException();
 
-        while (second != null) {
-            var next = second.next;
-            second = next;
-        }
-        return first.value;
+        var a = first;
+        var b = first;
+        for (int i = 0; i < k -1; i++) {
+            b = b.next;
+            if (b == null)
+                throw new IllegalArgumentException();
 
         }
-        return -1;
+        while (b != last) {
+            a = a.next;
+            b = b.next;
+        }
+        return a.value;
     }
 
 

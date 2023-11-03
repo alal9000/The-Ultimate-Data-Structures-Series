@@ -3,12 +3,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-        list.addFirst(10);
-        list.addLast(20);
-        list.addLast(30);
-        var node = list.getKthFromTheEnd(1);
-        var array = list.toArray();
-        System.out.println(Arrays.toString(array));
+        System.out.println(list.getKthFromTheEnd(1));
+
     }
 
 
