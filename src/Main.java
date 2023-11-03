@@ -2,18 +2,16 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        Stack<Integer> stack = new Stack<>();
-        stack.push(10);
-        stack.push(20);
-        stack.push(30);
-        System.out.println(stack);
-        var top = stack.pop();
-        System.out.println(top);
-        System.out.println(stack);
-        top = stack.peek();
-        System.out.println(top);
+        String str = "abcd";
 
+        Stack<Character> stack = new Stack<>();
+        char[] charArray = str.toCharArray();
+
+        // Use a for loop to push characters in reverse order
+        for (int i = charArray.length - 1; i >= 0; i--) {
+            stack.push(charArray[i]);
+        }
+
+        System.out.println(stack);
     }
-
-
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - kth node from the end">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="working with stacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698971573952</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="working with stacks">
+      <created>1698983513317</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698983513317</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,7 +222,8 @@
     <MESSAGE value="solution - reversing a linked list" />
     <MESSAGE value="exercise - kth node from the end" />
     <MESSAGE value="solution - kth node from the end" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution - kth node from the end" />
+    <MESSAGE value="working with stacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with stacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
