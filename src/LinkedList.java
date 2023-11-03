@@ -13,6 +13,7 @@ public class LinkedList {
 
 
     private Node first;
+    private Node second;
     private Node last;
     private int size;
 
@@ -139,6 +140,21 @@ public class LinkedList {
         first = previous;
 
 
+    }
+
+    public int getKthFromTheEnd(int k) {
+        if (k > 0) {
+        var current = first.next;
+        second = current.next;
+
+        while (second != null) {
+            var next = second.next;
+            second = next;
+        }
+        return first.value;
+
+        }
+        return -1;
     }
 
 
