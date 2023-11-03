@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - reversing a string">
-      <change afterPath="$PROJECT_DIR$/src/BalancedExpressions.java" afterDir="false" />
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="exercise - balanced expressions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BalancedExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BalancedExpressions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699001986462</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="exercise - balanced expressions">
+      <created>1699047910437</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699047910437</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,7 +247,8 @@
     <MESSAGE value="working with stacks" />
     <MESSAGE value="exercise - reversing a string" />
     <MESSAGE value="solution - reversing a string" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution - reversing a string" />
+    <MESSAGE value="exercise - balanced expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise - balanced expressions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -249,6 +257,11 @@
           <url>file://$PROJECT_DIR$/src/LinkedList.java</url>
           <line>22</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BalancedExpressions.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
