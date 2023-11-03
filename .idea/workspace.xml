@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="exercise - reversing a string">
-      <change afterPath="$PROJECT_DIR$/src/StringReverser.java" afterDir="false" />
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - reversing a string">
+      <change afterPath="$PROJECT_DIR$/src/BalancedExpressions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698989447428</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="solution - reversing a string">
+      <created>1699001986462</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1699001986462</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,7 +239,8 @@
     <MESSAGE value="solution - kth node from the end" />
     <MESSAGE value="working with stacks" />
     <MESSAGE value="exercise - reversing a string" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise - reversing a string" />
+    <MESSAGE value="solution - reversing a string" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution - reversing a string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

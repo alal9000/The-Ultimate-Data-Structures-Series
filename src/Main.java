@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        String str = "abcd";
+        String str = "[1 + 2]";
 
-        StringReverser reverser = new StringReverser();
-        var result = reverser.reverse(null);
-        System.out.println(result);
-
+        BalancedExpressions contains = new BalancedExpressions();
+        System.out.println(contains.balanced(str));
     }
 }
