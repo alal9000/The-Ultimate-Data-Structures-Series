@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="exercise - kth node from the end">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - kth node from the end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698969705319</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="solution - kth node from the end">
+      <created>1698971573952</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698971573952</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,7 +214,8 @@
     <MESSAGE value="converting linked lists to arrays" />
     <MESSAGE value="solution - reversing a linked list" />
     <MESSAGE value="exercise - kth node from the end" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise - kth node from the end" />
+    <MESSAGE value="solution - kth node from the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution - kth node from the end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
