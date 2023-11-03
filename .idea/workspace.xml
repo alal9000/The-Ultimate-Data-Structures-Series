@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - a basic implementation">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - supporting other brackets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BalancedExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BalancedExpressions.java" afterDir="false" />
     </list>
@@ -226,11 +226,17 @@
       <option name="project" value="LOCAL" />
       <updated>1699051173499</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="solution - supporting other brackets">
+      <created>1699052713992</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1699052713992</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="O(1)" />
     <MESSAGE value="O(n)" />
     <MESSAGE value="O(n^2)" />
     <MESSAGE value="space complexity" />
@@ -255,7 +261,8 @@
     <MESSAGE value="solution - reversing a string" />
     <MESSAGE value="exercise - balanced expressions" />
     <MESSAGE value="solution - a basic implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution - a basic implementation" />
+    <MESSAGE value="solution - supporting other brackets" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution - supporting other brackets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
