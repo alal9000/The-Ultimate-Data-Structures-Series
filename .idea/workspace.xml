@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - second refactoring">
-      <change afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="exercise - building a stack using an array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,11 +248,17 @@
       <option name="project" value="LOCAL" />
       <updated>1699058833991</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="exercise - building a stack using an array">
+      <created>1699075773872</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1699075773872</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="space complexity" />
     <MESSAGE value="working with arrays in java" />
     <MESSAGE value="Exercise- Array Class" />
     <MESSAGE value="solution- creating the class" />
@@ -277,7 +283,8 @@
     <MESSAGE value="solution - supporting other brackets" />
     <MESSAGE value="solution - first refactoring" />
     <MESSAGE value="solution - second refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution - second refactoring" />
+    <MESSAGE value="exercise - building a stack using an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise - building a stack using an array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

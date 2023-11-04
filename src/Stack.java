@@ -1,32 +1,37 @@
+import java.util.Arrays;
+
 public class Stack {
-    private int[] items;
+    private int[] items = new int[5];
     private int count;
 
-    public Stack(int length) {
-        items = new int[length];
-    }
-
-
     public void push(int item) {
-        items[count] = item;
-        count++;
+        if (count == items.length)
+            throw new StackOverflowError();
+        items[count++] = item;
     }
 
     public int pop() {
-        items = new int[3];
-        return items[count - 1];
+        if (count == 0)
+            throw new IllegalStateException();
+
+        return items[--count];
+    }
+
+    @Override
+    public String toString() {
+        var content = Arrays.copyOfRange(items, 0, count);
+        return Arrays.toString(content);
     }
 
     public int peek() {
+        if (count == 0)
+            throw new IllegalStateException();
+
         return items[count - 1];
     }
 
     public boolean isEmpty() {
-        return (items.length == 0);
+        return count == 0;
     }
 
-    public void print() {
-        for (int i = 0; i < count; i++)
-            System.out.println(items[i]);
-    }
 }
