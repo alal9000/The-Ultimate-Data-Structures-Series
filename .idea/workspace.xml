@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - supporting other brackets">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - first refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BalancedExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BalancedExpressions.java" afterDir="false" />
     </list>
@@ -233,11 +233,17 @@
       <option name="project" value="LOCAL" />
       <updated>1699052713992</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="solution - first refactoring">
+      <created>1699053331694</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1699053331694</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="O(n)" />
     <MESSAGE value="O(n^2)" />
     <MESSAGE value="space complexity" />
     <MESSAGE value="working with arrays in java" />
@@ -262,7 +268,8 @@
     <MESSAGE value="exercise - balanced expressions" />
     <MESSAGE value="solution - a basic implementation" />
     <MESSAGE value="solution - supporting other brackets" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution - supporting other brackets" />
+    <MESSAGE value="solution - first refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution - first refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
