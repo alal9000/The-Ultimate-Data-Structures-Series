@@ -7,7 +7,8 @@ public class Stack {
     public void push(int item) {
         if (count == items.length)
             throw new StackOverflowError();
-        items[count++] = item;
+        items[count] = item;
+        count++;
     }
 
     public int pop() {
