@@ -5,8 +5,8 @@ public class StringReverser {
         if (input == null)
             throw new IllegalArgumentException();
 
-
         Stack<Character> stack = new Stack<>();
+
 
         for (char ch : input.toCharArray())
             stack.push(ch);

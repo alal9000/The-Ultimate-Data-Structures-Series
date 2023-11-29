@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - implementing a stack using an array">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="queues in java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringReverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringReverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,11 +262,17 @@
       <option name="project" value="LOCAL" />
       <updated>1699088013014</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="queues in java">
+      <created>1701229007492</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1701229007492</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercise- Array Class" />
     <MESSAGE value="solution- creating the class" />
     <MESSAGE value="solution- insert()" />
     <MESSAGE value="solution- removeAt()" />
@@ -291,7 +297,8 @@
     <MESSAGE value="solution - second refactoring" />
     <MESSAGE value="exercise - building a stack using an array" />
     <MESSAGE value="solution - implementing a stack using an array" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution - implementing a stack using an array" />
+    <MESSAGE value="queues in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="queues in java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
