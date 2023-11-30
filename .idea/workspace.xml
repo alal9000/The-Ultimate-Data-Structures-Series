@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="queues in java">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - reversing a queue">
+      <change afterPath="$PROJECT_DIR$/src/ArrayQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringReverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringReverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,11 +269,17 @@
       <option name="project" value="LOCAL" />
       <updated>1701229007492</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="solution - reversing a queue">
+      <created>1701248466436</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1701248466436</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solution- creating the class" />
     <MESSAGE value="solution- insert()" />
     <MESSAGE value="solution- removeAt()" />
     <MESSAGE value="solution- indexOf()" />
@@ -298,7 +304,8 @@
     <MESSAGE value="exercise - building a stack using an array" />
     <MESSAGE value="solution - implementing a stack using an array" />
     <MESSAGE value="queues in java" />
-    <option name="LAST_COMMIT_MESSAGE" value="queues in java" />
+    <MESSAGE value="solution - reversing a queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution - reversing a queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,6 +314,11 @@
           <url>file://$PROJECT_DIR$/src/LinkedList.java</url>
           <line>22</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
