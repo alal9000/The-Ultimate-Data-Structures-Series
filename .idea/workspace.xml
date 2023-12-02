@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - reversing a queue">
-      <change afterPath="$PROJECT_DIR$/src/ArrayQueue.java" afterDir="false" />
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - a basic implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701248466436</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="solution - a basic implementation">
+      <created>1701372888662</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1701372888663</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -297,7 +303,6 @@
     <MESSAGE value="exercise - reversing a string" />
     <MESSAGE value="solution - reversing a string" />
     <MESSAGE value="exercise - balanced expressions" />
-    <MESSAGE value="solution - a basic implementation" />
     <MESSAGE value="solution - supporting other brackets" />
     <MESSAGE value="solution - first refactoring" />
     <MESSAGE value="solution - second refactoring" />
@@ -305,7 +310,8 @@
     <MESSAGE value="solution - implementing a stack using an array" />
     <MESSAGE value="queues in java" />
     <MESSAGE value="solution - reversing a queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution - reversing a queue" />
+    <MESSAGE value="solution - a basic implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution - a basic implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
