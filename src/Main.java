@@ -1,16 +1,16 @@
-import java.util.Queue;
+import java.util.PriorityQueue;
 
 public class Main {
     public static void main(String[] args) {
-        QueueWithTwoStacks queue = new QueueWithTwoStacks();
-        queue.enqueue(10);
-        queue.enqueue(20);
-        queue.enqueue(30);
-        queue.dequeue();
-        queue.dequeue();
-        queue.dequeue();
-        var first = queue.dequeue();
-        System.out.println(first);
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        queue.add(5);
+        queue.add(1);
+        queue.add(3);
+        queue.add(2);
+
+        while (!queue.isEmpty())
+            System.out.println(queue.remove());
+
 
     }
 
