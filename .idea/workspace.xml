@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - refactoring" />
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="working with hash tables">
+      <change afterPath="$PROJECT_DIR$/src/CharacterFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,11 +319,17 @@
       <option name="project" value="LOCAL" />
       <updated>1702330539761</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="working with hash tables">
+      <created>1702496253305</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1702496253305</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solution - addLast, addFirst, indexOf, contains" />
     <MESSAGE value="solution - removeFirst()" />
     <MESSAGE value="solution - removeLast()" />
     <MESSAGE value="implementing size" />
@@ -344,7 +354,8 @@
     <MESSAGE value="priority queues" />
     <MESSAGE value="solution - building a priority queue" />
     <MESSAGE value="solution - refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution - refactoring" />
+    <MESSAGE value="working with hash tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with hash tables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

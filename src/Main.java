@@ -3,17 +3,9 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        // Key: Employee Number (Integer)
-        // Value: Name (String)
-        Map<Integer, String> map = new HashMap<>();
-        map.put(1, "Mosh");
-        map.put(2, "John");
-        map.put(3, "Mary");
-
-        System.out.println(map);
-
-        for (var item : map.entrySet())
-            System.out.println(item);
+        CharacterFinder finder = new CharacterFinder();
+        var ch = finder.findFirstNonRepeatingChar("a green apple");
+        System.out.println(ch);
 
     }
 
