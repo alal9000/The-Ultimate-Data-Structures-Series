@@ -12,9 +12,9 @@ public class CharacterFinder {
             map.put(ch, count + 1);
         }
 
-        for (var ch : chars)
-            if (map.get(ch) == 1)
-                return ch;
+        for (var c : chars)
+            if (map.get(c) == 1)
+                return c;
 
         return Character.MIN_VALUE;
     }
