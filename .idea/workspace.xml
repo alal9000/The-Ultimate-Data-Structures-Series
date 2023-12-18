@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="sets">
+    <list default="true" id="9339e5f0-8ea7-44e6-abed-e8f3128cdd6b" name="Changes" comment="solution - first repeated character">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CharacterFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CharacterFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -340,11 +339,17 @@
       <option name="project" value="LOCAL" />
       <updated>1702672754636</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="solution - first repeated character">
+      <created>1702760232274</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1702760232274</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implementing size" />
     <MESSAGE value="converting linked lists to arrays" />
     <MESSAGE value="solution - reversing a linked list" />
     <MESSAGE value="exercise - kth node from the end" />
@@ -369,7 +374,8 @@
     <MESSAGE value="working with hash tables" />
     <MESSAGE value="solution - first non repeating character" />
     <MESSAGE value="sets" />
-    <option name="LAST_COMMIT_MESSAGE" value="sets" />
+    <MESSAGE value="solution - first repeated character" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution - first repeated character" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
