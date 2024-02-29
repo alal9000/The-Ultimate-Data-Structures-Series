@@ -1,0 +1,29 @@
+-non linear data structures - binary trees, avl trees, heaps, tries and graphs. The most important of these are trees as they have many applications and use cases in the real world
+-a tree is a data structure that stores elements in a hierarchy. We refer to these elements as nodes and the lines that connect them as edges. Each node contains value or data, we can also store objects inside nodes (ie: Person objects like John or Mary)
+-the top node of a tree is called the root, the root can have children nodes and is the parent of these nodes. The root's children can also have children themselves. Nodes that dont have any children are called leaf nodes
+-when nodes have a max of two children, we call that a binary tree
+-we have different kinds of trees in computer science - they are all fundamentally the same but slightly different in terms of the number of children each node can have and how the values in these nodes can be arranged.
+-Trees: anywhere we want to represent heirarchical data ie: files and folders on disk, databases (use trees for indexing), autocompletion (chrome stores all past web searchs in a tree) and compilers - trees have lots of applications in the real world
+-binary search tree special type of binary tree allows us to quickly look up data. In these types of trees, the value of any node is always greater than the value of its left child (and sub tree) and less than the value of its right child (and sub tree) - unlike arrays or linkedlists we dont have to traverse the entire tree to find a value
+-logarithmic time complexity: whenever we throw out half our items and narrow down our search - so looking up an item in a binary search tree runs in logarithmic time or O(log n)
+-adding a new node to a binary search tree runs in logarithmic time because we have to set the link, the same is true for deleting a node
+-trees provide better performance than arrays and linked lists, plus they allow us to model heirarchical data
+-we can return early from a function when we dont want further code to be executed
+-in linear data structures such as arrays and linked lists we only have one way for traversal, we start at the first node and go forward until we reach the end
+traversing trees is classified into two categories: breadth first (traverse level by level) or depth first
+-breadth first: traverse level by level
+-depth first: pre-order - root, left, right. In-order - left, root, right. Post-order - left, right, root. Its called depth first because we start by going deep to children and grandchildren
+-recursion is a powerful programming technique for implementing repetition - just like loops but it works a bit differently. Recursion is another approach for implementing repetition in our code but without using a loop. Recursion happens when a function or method calls itself - these methods are called recursive methods. All recursive functions need a base condition, this is a way to terminate the recursion. Java keeps track of all the recursive calls in a stack, this is called the call stack. The call stack is a region of memory that keeps track of the function calls and their local variables allowing the program to return to the correct point after each recursive call completes.
+-we can break down a complex problem into a bunch of smaller and smaller problems and solve them individually
+-we need base conditions to avoid a cycle in recursive functions
+-depth: how many levels down from the root node the target node is. We can also calculate the depth by counting the number of edges from the root to the target node
+-height is the opposite of depth. The height for leaf nodes is 0 and as we go up the height increases. We can calculate height by the longest path (number of edges) from the leaf nodes to the target node. The height of the root node is also called the height of the tree
+-most tree algorithms can be easily solved using recursion
+-in a BST (binary search tree) all the values in the left subtree should be smaller than the root itself and subsquently all the values in the right subtree should be greater than the value of root itself - so in this way its easier to find the minimum value which will be the left most leaf node and the maximum value will be the right most leaf node
+-the not operator is mostly used in falsy checks ie: return !archerIsAwake && prisonerIsAwake;
+
+
+
+
+
+Default Dark Modern

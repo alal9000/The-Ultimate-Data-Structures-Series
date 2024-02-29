@@ -1,0 +1,228 @@
+need to go back and revisit solution-first repeated character - set exercise for green apple example 
+
+-Linear data structures: arrays, linked lists, stacks, queues, hash tables
+-we use the big O notation to describe the performance of an algorigthm. This helps us determine wether a given algorithym is scaleable or not. This basically means, will this algo scale well as the input grows really large
+-just because your code executes quickly on your computer doesnt mean its going to perform well when you give it a large data set
+-certain operations can be more or less costly depending on what data structure we use, ie: accessing elements in an array is fast but doesn't grow or shrink easily if we need to add / remove items especially a large number of items. Linked list can grow or shrink easily but accessing elements is slower
+-O(1) Means a single operation runs in constant time ie: it will always take the same amount of time to execute no matter the input size. ie: if we have an array of numbers it could be 2 elements or two million, if we just print the first item of the array that operation will always run in constant time. O(1) is regarded as the runtime complexity of the algorithm.
+-in java you cannot call a method directly inside of a class body, the call has to be wrapped inside a method definition
+-O(n) - The cost of the algo grows linearly and in direct correlation with the size of the input. This means as the input size (often denoted as n) increases, the time it takes for the algo to run also increases in a direct and proportional manner
+-in algorithm analysis, a single operation is often assumed to run in constant time ie: O(1)
+-when dealing with an operation with O(n) and we have a few constant operations, we drop the constants as they dont really matter. We still refer to the algo as O(n) because a few constant operations do not have a significant impact on the complexity of our algo. In big ) notation we focus on the dominant factors that affect the growth rate of the algos running time as the input size increases
+-simple loops run in linear time or O(n), print statements run in constant time as they are single operation
+-nested loops run at O(n^2) or O(n * n). We say this algo runs in quadratic time. These algos get slower as the input gets bigger, with negligible amounts like 50 elements in an array you wont see the difference but as our input grows larger and larger these algos get slower and slower. Again we can simpify the algo to o(n^2) even if we have a stand alone loop running at O(n) because n^2 is larger than n itself we can overwrite the smaller value and just have O(n^2) because n squared always grows faster than n.
+-we use big O notation to understand how much the cost of an algo increases, all we need is an approximation not an exact value
+-O(log n): as the size of the input increases, the runtime of the algo increases at a much slower rate. The larger n becomes the proportionally less time the algo takes to complete. Binary search is an example of O(log n) where we go to the middle of a number array and ask is the number we are searching for, it is smaller or bigger than the middle number, we can then discard the left or right side of the array depending on this condition and re do this by going to the middle of the numbers that are left. if the array has 1mill items, there is 19 cycles until we find our number where if we did this with linear search where we inspect every item of the array there would be 1million cycles in the worst case scenario where the number we are looking for is at the very end of the array. So an algo that runs in logarithmic time is more efficient and more scalable then an algo that runs in linear or quadratic time. We have logarithmic growth in algos where we reduce our work by half in every step
+-O(2^n) is the exponential growth curve which is the opposite of the logarithmic growth. The expo curve takes more time as the input size grows. These algos are not scaleable at all, they will become very slow very soon
+-the growth rates that you see most of the time are: constant O(1), logarithmic O(log n), linear O(n), quadratic O(n^2) and exponential O(2^n). These are the ones we should memorize
+-we use the big O notation to describe the runtime complexity of our algos
+-we often have to do a trade off between saving time and saving space. There are times when we have more space so we can use that to make it faster and more scaleable, but there is also times where we have limted space like when we build an app for a small mobile device like a smart watch, in this situations we have to optimise for the space because scalability is not a large factor, only one user will be using the app not a million
+-O(X) describes the space complexity an algo requires
+-if space / memory is independant of the input and is constant like a loop variable inside a function which takes a string array, then we can describe the loop variable as O(1) space
+-if space / memory is dependant on the size of the input ie: String[] copy = new String[names.length]; where the function takes a string array called names then we can descrive it as O(n). This is because the copy array size is in direct proportion to the size of the input array, so the size of the copy array will grow in proportion to the size of the input array
+-when you are in a situation where you are space constrained, always think about the space complexity of your algos and see if there are ways to preserve the memory
+-we use arrays to store a list of items squentially
+-when doing big O analysis we should think about the worst case scenario
+-for arrays the runtime complexity of looking up an item by its index is O(1)
+-if you need to store a list of items and access them by their index, arrays are the best data structure
+-In java and many other programming languages, arrays are static which means when we allocate them we should specify their size and this size cannot change later on, so we need to know ahead of time how many items we want to store in an array
+-In programming when we say an operation can be costly we mean in terms of time and space complexity
+-in java we can have empty elements at the end of the array but not in the front or middle as java arrays are fixed in size and designed to have contiguous memory storage
+-deleting an element from the end of a java array has a time complexity of O(1) but deleting from the front is O(n) where n is the number of elements that need to be shifted
+-arrays in java have a fixed size so they are not so good if we dont know ahead of time how many items we want to store in them, or we need to often add or remove large numbers of elements to them. In these situations, they dont perform well and in those cases its better to use linked lists
+-if you want to work with lists that grow or shrink automatically, you have to use linkedlists
+-all items in a numeric array are initialized to 0
+-arrays in java are static which means they have a fixed size and this size cannot be changed
+-In Java, every possible code path in a non-void method must have a return statement.
+-in java a method that is declared to return a value, all possible execution paths must include a return statement that returns a value that is defined in the method signature. ie: public int indexOf(int item) {} here all exec path must contain a return statement that returns an int
+-in java a statement is a complete, independent unit of execution that performs an action
+-comments in the code should be for whys and hows, not what the code is doing, that should be reflected in the code itself
+-exception are a way to manage and handle errors in a structured manner, allowing a program to recover from errors, or gracefully exit if necessary.
+-break your methods down into steps that need to be taken and comment each step, then implement it
+-when determining bigO we typically analyse the worst case scenario, whatever the runtime complexity of that is, thats our bigO
+-in python and JS arrays are dynamic which means they can grow or shrink, in java however arrays are static which means they are of a fixed size when initialized. Java however provides a dynamic array implementation using the ArrayList class. Each time an arraylist gets full it will grow by 50% of its size
+-when we say a method is synchronized, that means only a single thread can access that method
+-runtime complexities of arrays: lookup by index - O(1), lookup by value - O(n), insert O(n), delete O(n)
+-we use linked lists to store a list of objects in sequence, but unlike arrays, linked lists can grow or shrink automatically
+-a linked list consists of a group of nodes in sequence, each node holds two pieces of data, one is a value, the other is the address of the next node in the list. so we say each node points to or references the next node, the first node is the head and the last is the tail
+-for linked lists the runtime complexity for lookup by value: O(n), lookup by index: O(n), insert at end: O(1), insert at beginning: O(1), insert in the middle: O(n)
+-for delete operations for linked lists:  from beginning its O(1) because we set the head to point to second node and delete the first node. From the end its o(n) because we need to traverse the list to find the second to last node, unlink this node from that last node, have the tail point to the previous node. Deleting from the middle, we have to traverse the list to find the node we want to delete as well as its previous node, we should link the previous node with the node after the node we want to delete and then remove the node we want to delete, this operation is O(n)
+-unlike arrays, nodes in a linked list are not stored squentially in memory but instead in random locations. Because of this we cannot quickly look up an item by its index, instead we have to traverse the entire list until we find that item
+-A generic type parameter ie: LinkedList<E> means that we can store / hold any type of objects in this linked list, ie: we can have a linked list of integers, strings and so on. If we ommit the <E> in the example then we can have a linked list of a mix of objects, ie: the first node can be a string then the second node can be a integer etc. 
+-the new operator in java will allocate memory to the object on its right.
+-for constructors it is not required to initialize all the fields, we can intialize some and leave others at their default value
+-for if statements, the else block at the end serves as a fallback or catch all for cases where none of the preceding conditions (if and else if) are met. ie: if they all evaluate to false then the else case will be exec
+-in our classes we should make implementation detail private because we dont want it to be accessible outside of the class
+-The java garbage collector will remove objects that are no longer reachable. ie: if an object no longer has references pointing to it, then that object is eligible for garbage collection
+-we should always review our code, test it with different inputs and think of various edge cases
+-as your implementing operations within your data structures, you need to think about efficiency, ie: we don't want to traverse an entire linkedlist just to get the size, what if we had a million items that would be a costly operation. Instead in this example if we have a count field and increment and decrement when we add or remove an item respectively, thats a much more efficent implementation as then we can just read the size of the field which is O(1) operation compared to O(n) if we traverse the entire list.
+-we should be able to explain the differences between arrays and linked lists when it comes to memory and the time complexity of various operations
+-space: static arrays have a fixed size so if we dont know ahead of time how many items we want to store in them we should use dynamic arrays or linked lists. Dynamic arrays grow by 50 - 100% of their size when they get full, as such they may end up wasting memory, linked lists however only take up as much memory as they really need, so dont waste memory, however LL take a bit of extra memory because each node should also store the address of the next node in addition to a value. If we know ahead of time roughly how many items we are going to store its better to use an array, either static or dynamic because arrays have a smaller footprint
+-certain operations are fast in arrays but slow in LL
+-we need to understand what problem we are trying to solve. Each problem has different solutions and each solution has strengths and weaknesses, there is no such thing as the perfect solution, we should always do trade offs
+-lookup: Arrays - by index: O(1), by value: O(n). Linked Lists - by index: O(n), by value: O(n)
+-insert: Arrays - beginning / end: O(n), middle: O(n). Linked Lists - beginning / end: O(1), middle: O(n)
+-delete: Arrays - beginning: O(n), middle: O(n), end: O(n). Linked Lists - beginning: O(1), middle: O(n), end: O(n)
+-we have two types of linked lists: singly and doubly
+-doubly linked lists in addition to a field that stores a reference or pointer to the next node, also has a field which stores a reference to the previous node. So they take a bit more space (negligble) but the benefit is they can delete from the end with O(1) operation as opposed to singly which has O(n) for the same operation
+-the linked lists class in java is an implementation of the doubly linked list.
+-both singly and doubly LL can be circular - which means the last node can reference the first node. The benefit of this is that our data structures can loop ie: playlist on music players starts again after the last song
+-linked lists are the second most commonly used data structure after arrays, they grow and shrink automatically without wasting memory, but they use a bit more memory because they reference the next and / or previous nodes.
+-LIFO: last in first out principal when it comes to stacks. We can think of stacks like a bunch of books stacked on top of each other
+-stacks have 4 operations: push - adds item on top of stack, pop - removes the item on top of the stack, peek - returns the item on the top, isEmpty - tells us if the stack is empty or not
+-all operations of stacks run in O(1) or constant time
+-the stack class in java is generic which means we can store any type of objects in a stack
+-stacks are not really ment for storing a list of objects and looking them up quickly
+-whenever we are dealing with a problem that involves going back or doing something in reverse order, stacks are your best friend
+-in java we can use a for each loop with arrays and collections but not with primitive types like int, char, boolean or the String class (String is a reference type)
+-strings are immuteable in java so if we have a lot of string concatenations, a new string object has to be created in memory everytime we concatenate. This can be expensive operation. To mitigate against this performance penalty we can use the StringBuffer class which is designed for mutable string manipulation
+-be sure to test edge cases when testing your algos.
+-with stacks we can go backward
+-whenever we want to solve a problem, always try to break it down into smaller, easier problems
+-we can refactor and clean up code by extracting logic and putting it into its own seperate method (usually private method within the same class as its implementation detail)
+-the difference between lists and arrays is the methods each offer is different. Lists are more flexible because they can be resized dynamically and provide a wider range of methods for element manipulation, some example of lists: ArrayList<E>, LinkedList<E> etc
+-creating an initializing an object / variable is often combined into a single operation but we have the option of seperating this into two seperate operations ie: int number; number = 2; or int number = 2;
+-we should be mindful of how objects are created in memory from our code and try to increase the efficiency of this. ie: if calling a method is going to create a new object in memory everytime then maybe a better way is to create and initialize the method once as a private field and reuse this throughout our code. ie: private final List<Character> leftBrackets = Arrays.asList('(', '<', '[', '{');
+-in java, fields can be the result of calling a method
+-overriding means changing the implementation of a method that we inherit from a base class, ie: the toString() method
+-In java all classes directly or indirectly inherit from the object class
+-if you see the increment / decrement operator inline as part of an expression. If we see it before the object that means we increment / decrement first and if we see if after the object that means we increment / decrement last. ie: items[count++] = item; here we set the value of the array element at index 'count' then we increment count. It is equivilent to: items[count] = item; count++; its just syntactic sugar
+-ques are used in situations where you want to process jobs in the order you receive them. ie: printers
+-java is both an interpreted and compiled language
+-we can use the Arrays class to return the content of an array represented as a string ie: Arrays.toString(items); - here 'items' is our array
+-stacks are data structures with the last in first out behaviour - LIFO. For this reason we can use them in situations where we want to do or undo things in the reverse order - like the back button of a browser.
+-stacks can be implemented using arrays or linked lists
+-all operations of a stack run in constant time or O(1)
+-queues are simimalr to stacks but they are FIFO - first in first out. They are like queues of people in the real world, they join the queue from the back and leave from the front. real examples include: printers, operating systems (processes) and web-servers (requests)
+-operations of a queue - enqueue (add to back), dequeue (remove from front), peek, isEmpty, isFull. All these operations run in constant time or O(1) because all these items are removed or added from the ends and this is very fast
+-interfaces are contracts (agreements)
+-Deue is short for double ended queue that is a queue that has two ends. We can add items from any direction right or left
+-we can use the StringBuffer class if we have a lot of string manipulation operations 
+-there are 3 ways to implement a queue: array, linkedlist or stack
+-circular arrays, instead of going out of the array boundaries, important pointers such as front and back reset back to its opposite end like a circle. We can often achieve this by applying a formular to update the index of the pointer upon its incrementation.
+-we can build a queue using two stacks
+-we should design our code with a single place that needs to be changed in the future if we have to. That makes our code more maintainable
+-in java the order of method declarations in a class dont matter, ie: you can call a method above its declaration (its not like python where order matters)
+-in priority queues, objects are processed based on their priority, not the order in which they join the queue. So if you create a priority queue in java, by default the smallest numbers will come out first - everytime we add a number to this queue, that number is not going to join the back of the queue - its going to be inserted exactly where it should be, so all these numbers are sorted
+-there are basically x2 ways of building a priority queue, we can use arrays or heaps
+-to solve problems, narrow it down and only focus on a small part and build up from there. Once the solution is working then you can focus on various edge cases
+-to see what we have inside an array we have to overwrite the toString method
+-queues: first in, first out (FIFO) data structures, they should be used in situations where we need to share a resource amongst many consumers, priority queues - objects are processed based on their priority
+-operations for queues: enqueue - O(1), dequeue - O(1), peek - O(1), isEmpty - O(1)
+-hash tables (AKA: dictionaries) give us super fast look ups and we can use them to optimise algorithms
+-most if not all programming languages have support for hash tables but under different names: java - HashMap, JavaScript - Object, Python - Dictionary, C# - Dictionary
+-we use hash tables to store key/value pairs - with hash tables we can quickly look up a value
+-if we want to store an object in our hash table - our hashtable takes the key, passes it to a hash function and this hash function will tell where the object should be stored in memory, our hash table will then store the object at that location. If we want to look up and object by its key - our hash table passes the key to the hash function and it will figure out where this object is stored and return it for us.
+-has functions are deterministic which means everytime we give it the same input it will return the same value - this is why we can use it for both storing and retrieving objects
+-internally a hash table uses an array to store our objects
+-operations supported by hash tables: insert, lookup, delete and all these operations run in O(1) because the hash function tells us where in memory we should store an object or look it up (we dont have to iterate over the array)
+-generics (classes, interfaces) are basically parameterized types
+-we declare our HashMap like: Map<Integer, String> map = new HashMap<>(); here Map is a contract or interface and HashMap is an implementation of this interface
+-In hashmaps we cannot have duplicate keys, the old values will be overwritten
+-we can store null values in hashmaps as well as null keys
+-in java when a method returns a value you typically need to store the returned result in a variable if you want to use or print it, conversly if a method does not return a value then you dont need to store the result of the method call and can just use the method on its own ie: int result = add(5, 3); VS printMessage("Hello, World!"); the first example returns an int while the second returns void
+-we should describe big O notation of an expression as 'time complexity' ie: time complexity of O(1) or time complexity of O(n). We could also say 'runtime complexity' 
+-we cannot iterate over a hashmap directly but we can convert it into a list of keys or key/value pairs then iterate over it ie: for (var item : map.keySet()) // do someting...
+-in java your logic has to be inside a method either in the Main or other classes
+-we cannot iterate over a string in java, we have to convert it to a character array first ie: str.toCharArray()
+-the ternary operator is a compact way of writing an if statement
+-because of the hash function for hash maps, items are not inserted sequentially in memory according to the input given and its corresponding output
+-try to avoid creating duplicate objects in memory. Instead create a single object and reuse it over your code base. Your code will be more efficient. ie: if you use str.toCharArray() twice in your code then there will be two seperate instances of this character array in the memory and becomes problematic when you have say a million characters in the string. Instead, create a single instance in memory by declaring a seperate variable and re-use it through out your code ie: var chars = str.toCharArray();
+-maps, hash tables or hash maps are basically the same thing - they map a key to a value (dict in python or object is JS)
+-unlike maps, sets just have a key
+-sets just like maps dont allow duplicate keys , so we can take a list containing duplicates and add each item to a set and that will result in a unique list of item
+-algorithms are step by step instructions
+-the values in hash tables are technically stored in an array - the hash table should map the key to an index value - this is the job of a hash function, a hash function is a function that gets a value and maps it to a different kind of value, which we call a hash value / hash code.
+-implicit casting is when a value is automatically converted to a value of a different type
+-in the context of hash tables and data structures, the hash function should return an index value - this is where we want to store an item in an array
+-in java, every object has a hashcode method that returns a hashvalue based on that methods underlying algo
+-when generating hash values, it is possible that two distinct keys generate the same hash value and we can't store two values at the same index - this is what we call a collision
+-there are two ways to handle collisions: chaining - have each cell in our array point to a linkedlist, with this we can store multiple items at the same array index, so we dont store the values in the array but instead inside the linkedlist., if we have a collision, we simply store the new item at the end of the linkedlist. Open addressing: find a different slot for storing the second value - there are different algos available for this purpose
+-for 0 indexing (ie: array indexing), we have to add one to index of the last item to get the count because we need to account for the extra number which is 0. ie: if an array has the indexes 0 - 4, then we do 4 + 1 to get the count which is 5 in this case. Then we do -1 on the count if we want to convert the count to index of the last item in the array
+-with the open addressing strategy to avoid collisions we can use linear probing which means searching for another slot or location in the array to store the value. The formula for linear probing: (hash(key) + i) % table_size - here i is like a loop variable thats starts with 0 and gets incremented at every step until we find an empty slot
+-the problem with linear probing is that clusters can form which means blocks of contiguous data populate the array, which means we have to continually traverse that cluster until we find an empty slot which increases in the cost of our algo. When clusters form, then that cluster just gets bigger because continually the next free slot after the cluster will get populated making the cluster even bigger than it was - to solve this issue we can use quadratic probing
+-quadratic probing just raises i to the power of 2 ie: (hash(key) + i^2) % table_size - this in turn means instead of placing items linearly with i incrementing by one, they get more spread out with bigger jumps between items so clusters wont form but the problem with this approach is that we go over the boundary of our array more often with bigger jumps and end up making the same steps resulting in an infinite loop.
+-with double hashing, instead of i or i^2 (like linear or quadradic probing) we using a seperate independent hash function to calculate the number of steps. ie: hash2(key) = prime - (key % prime) - here prime should be a number smaller than our table. This is a popular second hash function that experts have figured out works.
+-with hash tables, when we have a collision we should probe for an empty slot
+-probing algos: linear - (hash1 + i) % table_size, quadratic - (hash1 + i^2) % table_size, double hash - (hash1 + i * hash2) % table_size - with double hashing we use a second hash function to calculate the insertion steps (jumps)
+-anything that is implementation detail should have a private access modifier
+-we get an exception when we iterate over null;
+-once we come up with a working solution, before we refactor our code we should have a bunch of automated tests (write code to test our code)
+- we often dont need a to declare a seperate variable if we have used it in a single place
+-we use hash tables to store key value pairs and look them up in constant time - insert, remove, lookup run in O(1)
+-hash tables use a hash function to map a key to an index value - when a hash function returns the same index for different keys, this is what we call collisions
+-different strategies for handling collisions: chaining - using linkedlists at each array cell. Open addressing - store key / pairs directly in array but search for new empty slot in case of collisions.
+-linear data structures: arrays, linkedlists, stacks, queues and hash-tables. We have a line of items one after each other 
+-non linear data structures - binary trees, avl trees, heaps, tries and graphs. The most important of these are trees as they have many applications and use cases in the real world
+-a tree is a data structure that stores elements in a hierarchy. We refer to these elements as nodes and the lines that connect them as edges. Each node contains value or data, we can also store objects inside nodes (ie: Person objects like John or Mary)
+-the top node of a tree is called the root, the root can have children nodes and is the parent of these nodes. The root's children can also have children themselves. Nodes that dont have any children are called leaf nodes
+-when nodes have a max of two children, we call that a binary tree
+-we have different kinds of trees in computer science - they are all fundamentally the same but slightly different in terms of the number of children each node can have and how the values in these nodes can be arranged.
+====================================================================================================================================================================================================================================
+
+BROCODE:
+
+-data structure: named location that can be used to store and organise data ie: family tree (heirarchy of family relationships)
+-array: a collection of elements stored at contiguous memory locations
+-different DS store and organise data in different ways
+-algorithm: a collection of steps to solve a problem
+-why learn DS & A: 1. write code that is both time and memory efficient 2. commonly asked questions involve DS & A in coding interviews
+-stack: LIFO ds. Last in first out. Stores objects into a sort of vertical tower. push() to add to the top and pop() to remove from the top
+-stacks are not zero indexed when using the search method
+-it is possible to run out of memory when adding objects to our stacks ie: add 1 billion objects
+-uses of stacks: 1. undo /redo features in text editors, 2. moving backward and forward through browser history, 3. backtracking algos, 4. calling functions (call stack)
+-queues: FIFO - first in first out ie: a line of people (first come, first serve)
+-queues are a linear data structure and is a collection designed for holding elements prior to processing. head is the front of the line and tail is the back
+-enqueue: add to tail of que
+-dequeue: remove from from head of que
+-an Interface is a template that we can apply to another class to enforce a contract
+-we cannot instantiate an interface directly, instead we have to instantiate a class that implements the interface
+-3 methods of Queues: 1. add: offer() - enqueue from head, remove: poll() - dequeue from tail, examine: peek() - examine the head. These return special values there is three equivilent methods that throw exceptions but according to the docs its better to use the ones that dont throw exceptions
+-interfaces allow for flexibility and polymorphism in java as different classes can implement the same interface in different ways while still being used interchangeably whereever that interface is expected
+-queues used in keyboard buffers, printer queues, LinkedLists, PriorityQueues
+-priority queue: FIFO DS, that serves elements with the highest priorities first before elements with lower priority
+-object: data and behaviour encapsulator
+-a statement in programming is a syntactic unit that expresses an action to be carried out. It represents a complete instruction that the computer can execute. In languages like C, C++, Java and JS statements are typically terminated by a semi-colon. some statement examples: assignment, declaration, control flow, function call
+-control flow statements: conditional (if, else, switch), loop (for, for-each, while, do-while), jump (continue, break, return) 
+-priorityqueues: the que will be served and displayed in ascending order for numbers and alphabetical order for strings. A comparator such as Collections.reverse() can be passing inside the constructor upon instantiation ie: new PriorityQueue<>(Collections.reverseOrder());
+-arrays are great for searching and randomly accessing elements because they are contiguous and indexed but not so great at inserting or deleting elements because the size is fixed and we have to expand / contract the array and reshuffle items around
+-In contrast to above, LinkedLists are great for inserting / deleting elements but not so great at randomly accessing elements (they are not indexed)
+-LinkedList: made up of a long chain of nodes, each node contains two parts: 1. Some data we need to store 2. An address to the next node in line (also referred to as a pointer) - LinkedList are non-contiguous (anywhere with memory) and non-indexed. Each node knows where the next node resides. 
+-The first node in a LL is called the head (contains only the address to the first node) while the last is called the Tail (has null pointer for final memory address)
+-insert / delete new elements (nodes) in a LL is super easy, there is no shifting of elements involved, we just need to update the memory address of the pointers. 
+-LL Insert: assign the address of the previous node to the new node we are inserting (in the middle of previous and next nodes) and assign the address of the new node to the next node in line (what the previous node address was pointing to). This will essentially insert the new node inbetween the previous and next nodes
+-LL Delete: delete is even more easy than insert (the node to be deleted is in the middle of the previous and next nodes), we just replace the address of the previous node to what the deleted node was pointing to, because the deleted node now no longer has a pointer pointing to it from a node it is essentially removed (disconnected) from the chain and if there are no other references to the deleted node, it becomes eligible for garbage collection and the garbage collector will automatically remove it. 
+-address pointer in a node in a LL are typically known as 'next' pointers or references
+-the garbage collector is responsible for freeing up memory of unused resources - something you would need to do manually in a language like C is done automatically in language like Java
+-LL although unlike arrays are bad at searching and accessing. To find an element in a LL we have to start at the head and traverse the LL towards the tail (for singly LL only, we can start at the head or tail for doubly LL) until we find the element that we are looking for. This is an expensive operation which takes linear time or O(n) (number of independant operations increase along with the amount of nodes in the list ie: n) in the worst case because the element we are looking for might be at the end of the list. But inserting or deleting takes constant time or O(1) which is super fast in the best case as we may want to insert at the begininng or end of the LL. So we look at best and worst case scenarios when doing Big O notation assesments
+-there is a variation of the standard LL (singly) which is called a doubly LL. In this version it has two memory address pointers, one for the next node and one for the previous node, so it takes additional memory to store each node. 
+-The benefit of a doubly linked list is we can traverse in either direction, head -> tail or tail -> head - each node knows where the next and previous node is.
+-A Deque is more or less a double ended que, insertion and removal can be done at both ends
+-we can treat (mimick) our LL like a stack or a que we can push(), pop(), poll() and offer()
+-to add / remove from LL in java its super easy as there is add(), remove() methods defined in the LinkedList class last which implements the List<E> interface which said class implements
+-where LinkedLists have advantages over Arrays and ArrayLists is the insertion and deletion of nodes - however the caveat is we still need to traverse the LL in order to find where we want to insert / delete, there is no random access
+-with zero indexing we are often 1 behind where we would normally think we are because we are starting from zero so we use up an extra number to account for the zero. So we often have to add 1 to account for the zero. When counting up using zero indexing we are always one ahead of where we would normally be because we have to account for the exra 0. ie: count to 3: 1, 2, 3 (3 spots) compared to 0, 1, 2, 3 (4 spots)
+-a LL is a DS that stores a series of nodes, each node contains two parts: 1. some data 2. an address - nodes are stored in non-consecutive memory locations - the pointers (address) within a node point to the memory address where the next node lives
+-advantages of LL: 1. dynamic DS, they can allocate needed memory while our program is currently running 2. insertion and deletion of nodes is really easy ie: O(1) or constant time in best case scenarios 3. there is low to no memory waste
+-disadvantages of LL: 1. greater memory usage because of storage of additional pointer (more for doubly LL) 2. no random access of elements (no index[i]) 3. accessing and searching elements is more time consuming. O(n) or linear time
+-uses of LL: 1. implement Stacks/Queues - if you need a stack or que for anything you could also use a LL. 2. GPS navigation - each node is like a stop or waypoint with the first node being starting position and last node being the final destination, a detour would insert and delete a node and re-calculate the route 3. music play list - each song doesn't need to be next to each other within your computers memory 
+-dynamic array: array with a resizeable capacity, we can increase the size if we want to add elements or conversly reduce to remove. Standard arrays are fixed size - the capacity is determined at compile time adn we can't change it later. Dynamic arrays are known as ArrayList in Java and Lists in python
+-static arrays: We can access array elements in O(1) constant time but searching for an element is O(n) linear time because we have to iterate or traverse the array until reach value or get to end, the larger the data set, the time to finish will increase linearly
+-static arrays: inserting or deleting is done in linear time and elements need to be shifted. When we are close to index zero all elements that follow need to be shifted so O(n) - insert shift to right, remove shift to left
+-dynamic array has own inner static array with fixed size, once capacity is reached it will declare an instantiate a new array with an increased capacity depending on programming language but usually between 1.5 - 2x
+-advantages of dynamic arrays: 1. dynamic sizing, 2. random access of elements O(1), 3. easy to insert or delete at end, because no shifting of elements
+-disadvantages of dynamic arrays: 1. wastes more memory (expand for extra room that we may not need), 2. shifting elements is expensive O(n), 3. expanding / shrinking is expensive O(n) (copy over elements to new array)
+-first steps to filling out a method usually involves doing some sort of checks and validations
+-every class in java is a subclass of Object so its the root class of all classes or the parent 
+-for loops are when we know the amount of iterations beforehand. While loops we dont need to know the amount of iterations beforehand. foreach loops are specifically designed for iterating over elements in a collection, we dont need to know the size of the collection beforehand
+
+finished up brocode DS&A course at 1:00:00 mark
+
+=================================================================================================================================================================================================================================
+
+
+
+*to do - check other method implementation for ArrayDeque class
+
+
+nextyear - C#, sql server, asp.net core, swift, kotlin, C++, data structures and algos, design principals
